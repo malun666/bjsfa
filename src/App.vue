@@ -1,28 +1,29 @@
 <template>
   <div id="app">
-  <header>我是头部
-  <hr>
-  </header>
-    <router-view/>
-    <footer>
-    <hr>
-    我是底部</footer>
+    <router-view class="route-view-wrap" />
   </div>
 </template>
 
 <script>
+// import 'http://rapapi.org/rap.plugin.js?projectId=32555';
+import './plugin/hotcss';
 export default {
   name: 'App'
 };
 </script>
 
-<style>
+<style lang="scss">
+@import './style/common.scss';
+html,
+body {
+  height: 100%;
+}
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  .route-view-wrap {
+    flex: 1;
+  }
 }
 </style>

@@ -1,0 +1,26 @@
+{
+  "date": "2016/07/09",
+  "circleData": [
+    {
+      "pval": 16,
+      "tagname": "16",
+      "title": "月时间进度",
+      "isplus": false,
+      "persents": true
+    },
+    {
+      "pval": 76,
+      "tagname": "76",
+      "title": "月销售进度",
+      "isplus": false,
+      "persents": true
+    },
+    {
+      "pval": 0,
+      "tagname": "186",
+      "title": "有效商店数据",
+      "isplus": false,
+      "persents": false
+    }
+  ]
+}
